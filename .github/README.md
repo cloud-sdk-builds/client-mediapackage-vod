@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-mediapackage-vod`](https://www.npmjs.com/package/@aws-sdk/client-mediapackage-vod/v/3.1178.0).
+[`@aws-sdk/client-mediapackage-vod`](https://www.npmjs.com/package/@aws-sdk/client-mediapackage-vod/v/3.1179.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-mediapackage-vod - [https://cloud-sdk-builds.github.io/?sdk=client-mediapackage-vod](https://cloud-sdk-builds.github.io/?sdk=client-mediapackage-vod)
-- @aws-sdk/client-mediapackage-vod v3.1178.0 - [https://cloud-sdk-builds.github.io/?sdk=client-mediapackage-vod&version=3.1178.0](https://cloud-sdk-builds.github.io/?sdk=client-mediapackage-vod&version=3.1178.0)
+- @aws-sdk/client-mediapackage-vod v3.1179.0 - [https://cloud-sdk-builds.github.io/?sdk=client-mediapackage-vod&version=3.1179.0](https://cloud-sdk-builds.github.io/?sdk=client-mediapackage-vod&version=3.1179.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediapackage-vod@3.1178.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediapackage-vod@3.1179.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-6aXz6Dhl/ljTtHhaArxP/h715c72I8zS8kBde5aD7lMVTX1b1w1H8XBvsSwLJd2e
+sha384-PDE2IXKieLCngSY2bJLoS5qAMQMP8j7z7a56GpiPfoKxrwEeJ7bx3rdcYVqopPke
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-mediapackage-vod": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediapackage-vod@3.1178.0/index.min.mjs"
+            "@aws-sdk/client-mediapackage-vod": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediapackage-vod@3.1179.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediapackage-vod@3.1178.0/index.min.mjs": "sha384-6aXz6Dhl/ljTtHhaArxP/h715c72I8zS8kBde5aD7lMVTX1b1w1H8XBvsSwLJd2e"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediapackage-vod@3.1179.0/index.min.mjs": "sha384-PDE2IXKieLCngSY2bJLoS5qAMQMP8j7z7a56GpiPfoKxrwEeJ7bx3rdcYVqopPke"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-mediapackage-vod": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediapackage-vod@3.1178.0/index.min.mjs"
+                        "@aws-sdk/client-mediapackage-vod": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediapackage-vod@3.1179.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediapackage-vod@3.1178.0/index.min.mjs": "sha384-6aXz6Dhl/ljTtHhaArxP/h715c72I8zS8kBde5aD7lMVTX1b1w1H8XBvsSwLJd2e"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediapackage-vod@3.1179.0/index.min.mjs": "sha384-PDE2IXKieLCngSY2bJLoS5qAMQMP8j7z7a56GpiPfoKxrwEeJ7bx3rdcYVqopPke"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1178.0`)
+* Always pin to a specific version (`@3.1179.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-mediapackage-vod/blob/refs/tags/3.1178.0/LICENSE
+https://github.com/cloud-sdk-builds/client-mediapackage-vod/blob/refs/tags/3.1179.0/LICENSE
 ```
 
 ---
